@@ -1,7 +1,7 @@
 new TradingView.widget(
     {
         "autosize": true,
-        "symbol": "BINANCE:BTCUSD",
+        "symbol": "NASDAQ:ADP",
         "interval": "240",
         "timezone": "Etc/Utc",
         "theme": "dark",
@@ -14,7 +14,10 @@ new TradingView.widget(
         "allow_symbol_change": true,
         "watchlist": [
             "NASDAQ:ADP",
-            "NYSE:NOC"
+            "NYSE:NOC",
+            "NASDAQ:IBKR",
+            "FRA:SAP",
+            "FRA:RHM"
         ],
         "details": true,
         "hotlist": true,
